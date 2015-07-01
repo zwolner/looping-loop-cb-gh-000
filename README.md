@@ -10,39 +10,14 @@ end
 
 This will output `I have found the Time Machine!` an infinite number of times in your Terminal. Use Control + C to break out of the loop in your terminal.
 
-%%%
+## Instructions
 
-## Using the `loop` method
+This is the first in a series of short exercises to help you get the hang of looping constructs. 
 
-It's your first year at Hogwarts and you're having a tough time getting the hang of that levitation spell. Fill out the content of the method `looping` puts the 
-levitation charm "Wingardium Leviosa" 10 times using the `loop` keyword. 
+1. Fork and clone this lab. 
+2. There are no tests for this lab! Code your solution in `looping.rb`:
 
-```ruby
-def looping
-	#your code here
-end
+	* It's your first year at Hogwarts and you're having a tough time getting the hang of that levitation spell. Fill out the content of the method `looping` to puts out the levitation charm "Wingardium Leviosa" using the `loop` keyword an infinite number of times. 
+	* Beneath your method definition, call your method by typing the name of the method, `looping`. 
 
-~~~solution
-
-def looping 
-	loop do 
-		puts "Wingardium Leviosa"
-		puts "Wingardium Leviosa"
-		puts "Wingardium Leviosa"
-		puts "Wingardium Leviosa"
-		puts "Wingardium Leviosa"
-		puts "Wingardium Leviosa"
-		puts "Wingardium Leviosa"
-	end
-end
-
-looping
-
-~~~validation
-looping_string = "Wingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\n"
-
-expect{ looping }.to output(looping_string).to_stdout
-
-```
-
-%%%
+3. Then, run the file by typing `ruby looping.rb` in your terminal from the directory of this lab. You'll be stuck in an infinite levitation loop! Hit Control + C to exit the infinite loop. 
