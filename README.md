@@ -1,6 +1,6 @@
 # The `loop` Construct
 
-## Ojbectives
+## Ojbectives 
 
 1. Understand how the `loop` construct works
 2. Build a method that utilizes the `loop` construct
