@@ -1,4 +1,11 @@
-# The Loop Construct
+# The `loop` Construct
+
+## Ojbectives
+
+1. Understand how the `loop` construct works
+2. Build a method that utilizes the `loop` construct
+
+## Introduction
 
 The first looping construct that we'll discuss is `loop`. This is the simplest looping construct that we have in Ruby. It simply executes a block (the code that is between the `do` and `end` keywords). Try this in IRB in your Terminal:
 
