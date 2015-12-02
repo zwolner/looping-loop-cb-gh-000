@@ -28,3 +28,5 @@ This is the first in a series of short exercises to help you get the hang of loo
 	* Beneath your method definition, call your method by typing the name of the method, `looping`.
 
 3. Then, run the file by typing `ruby looping.rb` in your terminal from the directory of this lab. You'll be stuck in an infinite levitation loop! Hit `Control`+`C` to exit the infinite loop. 
+
+<a href='https://learn.co/lessons/looping-loop' data-visibility='hidden'>View this lesson on Learn.co</a>
